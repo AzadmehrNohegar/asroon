@@ -1,0 +1,176 @@
+@font-face {
+	font-family: 'Yekan';
+	src:	url('./fonts/Yekan-Font-3.0/Yekan.eot'); 
+	src: url('./fonts/Yekan-Font-3.0/Yekan.woff2') format('woff2'), 
+			url('./fonts/Yekan-Font-3.0/Yekan.woff') format('woff'),
+			url('./fonts/Yekan-Font-3.0/Yekan.otf') format('opentype'),
+			url('./fonts/Yekan-Font-3.0/Yekan.ttf') format('truetype'); 
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: auto;
+}
+*{
+  font-family: 'Yekan', sans-serif !important;
+}
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e5e5;
+  text-align: right !important;
+}
+i{
+  font-style: normal;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+.create-form{
+  background-color: #ffffff;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.create-form input{
+  border-radius: 4px;
+  font-size: 14px;
+  border: 1px solid #dbdbdb;
+  display: block;
+  padding: 16px 16px 16px 5rem;
+  margin: 0.5rem 0 1rem 0;
+  text-align: right;
+}
+.create-form input:focus{
+  border-color: #666464;
+}
+.create-form input[type="submit"]{
+  text-align: center;
+  width: 100%;
+  padding: 16px 0;
+  background-color: #DE2D26;
+  color: #ffffff;
+}
+.create-form input[type="submit"]:hover{
+  cursor: pointer;
+}
+.create-form input::placeholder{
+  text-align: right;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.logo{
+  margin-bottom: 1rem;
+}
+main{
+  min-width: 800px;
+}
+main .logo{
+  position: relative;
+  right: 50%;
+  transform: translateX(50%);
+}
+nav{
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  border-bottom: 1px solid #dbdbdb;
+  padding-bottom: 1rem;
+}
+nav h3{
+  padding: 0;
+  margin: 0;
+}
+main{
+  min-height: 60vh;
+}
+main table {
+  border: none !important;
+  border-collapse: collapse !important;
+}
+main table{
+  background-color: #ffffff;
+  direction: rtl;
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+}
+main td, main th{
+  padding: 1rem;
+}
+main tr{
+  background-color: #fff;
+}
+main tr:first-of-type{
+  border-bottom: 1px solid #e5e5e5;
+}
+main table button{
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+main table img{
+  max-width: 15px !important;
+}
+.delete-btn{
+  position: absolute;
+  border: none;
+  border-radius: 4px;
+  left: 16px;
+  bottom: 16px;
+  padding: 8px 25px;
+  background-color: #DE2D26;
+  color: #fff;
+  cursor: pointer;
+}
+.close-btn{
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  left: calc(16px + 1rem);
+  top: calc(16px + 1rem);
+}
+.modal-content{
+  padding: 16px;
+}
+.modal-content span{
+  display: block;
+  padding: 1rem 0;
+}
+.modal-content h3{
+  margin: 0 0 1rem 0;
+}
+.navigation-buttons button{
+  padding: 8px 26px;
+  border: none;
+  cursor: pointer;
+}
+.navigation-buttons button:first-of-type{
+  margin: 0 1rem 0 0;
+  background-color: #DE2D26;
+  color: #fff;
+}
+.navigation-buttons button:first-of-type span{
+  display: inline-block;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 0 4px;
+  margin-left: 3px;
+}
+.navigation-buttons button:last-of-type{
+  background-color: #fff;
+  color: #DE2D26;
+
+  border: 1px solid #DE2D26;
+}
